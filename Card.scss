@@ -1,0 +1,36 @@
+.react-card-flip {
+    height: 100%;
+
+    .blue-card {
+        background-color: #9FC5E8;
+        height: 100%;
+    }
+
+    .grey-card {
+        background-color: #999999;
+        height: 100%;
+    }
+
+    .card__title {
+        text-align: center;
+        color: white;
+        margin: 35%;
+    }
+
+    .back-content {
+        color: white;
+        &__title {
+            font-size: 17px;
+        }
+
+        &__sub-title {
+            font-size: 15px;
+            font-style: italic;
+        }
+    }
+
+    .MuiCardContent-root:last-child {
+        padding-bottom: 0;
+        margin: 15px;
+    }
+}

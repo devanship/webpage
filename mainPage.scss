@@ -1,0 +1,31 @@
+main {
+    
+    .MuiContainer-root {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .cards-grid {
+        height: 33%;
+    }
+
+    .MuiCardContent-root {
+        padding: 0;
+    }
+
+    .MuiContainer-maxWidthSm {
+        max-width: none;
+    }
+
+    .heroImage {
+        width: 100%;
+    }
+
+    .github-icon {
+        svg {
+            font-size: 200px;
+            margin: 19% 33%;
+            color: white;
+        }
+    }
+}
