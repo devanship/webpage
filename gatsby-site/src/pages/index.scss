@@ -1,12 +1,21 @@
-.MuiContainer-root {
-    padding-left: 0;
-    padding-right: 0;
+@import '../styles/global.scss';
+
+.MuiGrid-container {
+    margin: 20px;
+    position: fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+
+    .MuiGrid-grid-xs-4 {
+        height: 100%;
+    }
 }
 
-.MuiContainer-maxWidthSm {
-    max-width: none;
-}
-
-.heroImage {
-    width: 100%;
+.Typist {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: monospace;
+    color: $onyx;
 }

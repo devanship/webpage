@@ -1,38 +1,47 @@
 @import '../../styles/global.scss';
 
 .react-card-flip {
-    height: 33.3%;
+    height: 32.5%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 
     .orange-card {
-        background-color: $orange;
+        background-color: $coral;
         height: 100%;
+        overflow: auto;
     }
 
     .grey-card {
-        background-color: $lightGrey;
+        background-color: $platinum;
         height: 100%;
+        overflow: auto;
     }
 
-    .card__title {
+    .MuiCardHeader-title {
         text-align: center;
-        color: white;
-        margin: 35%;
+        color: $onyx;
+        font-family: monospace;
+        font-size: 30px;
     }
 
     .back-content {
-        color: white;
+        color: $onyx;
         &__title {
-            font-size: 17px;
+            font-weight: bold;
         }
-
-        &__sub-title {
-            font-size: 15px;
+        &__date {
             font-style: italic;
+            font-size: 16px;
         }
-    }
 
-    .MuiCardContent-root:last-child {
-        padding-bottom: 0;
-        margin: 15px;
+        legend {
+            font-size: 1.25rem;
+        }
+        
+        .MuiRating-iconFilled {
+            color: $skobeloff;
+        }
+        
     }
 }

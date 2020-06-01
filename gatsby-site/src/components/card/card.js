@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import ReactCardFlip from 'react-card-flip';
-import Card from '@material-ui/core/Card';
-import Typography from '@material-ui/core/Typography';
-import CloseIcon from '@material-ui/icons/Close';
+import { Card, CardHeader, CardContent } from '@material-ui/core';
 import './card.scss';
 
 class CardComp extends Component {
@@ -27,10 +25,10 @@ class CardComp extends Component {
         return (
           <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
             <Card className={this.props.type} onClick={this.handleClick}>
-                <Typography className="card__title">{this.props.title}</Typography>
+                <CardHeader title={this.props.title} />
             </Card>
             <Card className={this.props.type} onClick={this.handleClick}>
-                {this.props.backContent}
+                <CardContent className="back-content">{this.props.backContent}</CardContent>
             </Card>
           </ReactCardFlip>
         );
