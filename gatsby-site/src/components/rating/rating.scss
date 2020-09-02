@@ -1,0 +1,15 @@
+@import '../../styles/global.scss';
+
+.rating-comp {
+    &__legend {
+        color: $onyx;
+        font-size: 1.25rem;
+    }
+    
+    &__rating {
+        .MuiRating-iconFilled {
+            color: $cultured;
+        }
+    }
+}
+

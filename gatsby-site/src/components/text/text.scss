@@ -1,0 +1,13 @@
+@import '../../styles/global.scss';
+
+.text-comp {
+    color: $onyx;
+    
+    &__title {
+        font-weight: bold;
+    }
+    &__date {
+        font-style: italic;
+        font-size: 16px;
+    }
+}

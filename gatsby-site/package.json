@@ -15,9 +15,11 @@
     "gatsby-plugin-material-ui": "^2.1.9",
     "gatsby-plugin-offline": "^3.2.3",
     "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-react-redux": "^1.1.0-0",
     "gatsby-plugin-sass": "^2.3.2",
     "gatsby-plugin-sharp": "^2.6.4",
     "gatsby-source-filesystem": "^2.3.4",
+    "gatsby-source-medium": "^2.3.10",
     "gatsby-theme-material-ui": "^1.0.10",
     "gatsby-transformer-sharp": "^2.5.2",
     "material-components-web": "^6.0.0",
@@ -27,7 +29,9 @@
     "react-card-flip": "^1.0.10",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.0.0",
+    "react-redux": "^7.2.0",
     "react-typist": "^2.0.5",
+    "redux": "^4.0.5",
     "rodal": "^1.8.1"
   },
   "devDependencies": {

@@ -1,9 +1,12 @@
 var plugins = [{
-      plugin: require('/Users/devanshipatel/Desktop/webpage/gatsby-site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/devanshipatel/Desktop/CodeProjs/webpage/gatsby-site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/devanshipatel/Desktop/webpage/gatsby-site/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
+      plugin: require('/Users/devanshipatel/Desktop/CodeProjs/webpage/gatsby-site/node_modules/gatsby-plugin-material-ui/gatsby-ssr'),
       options: {"plugins":[],"stylesProvider":{"injectFirst":true}},
+    },{
+      plugin: require('/Users/devanshipatel/Desktop/CodeProjs/webpage/gatsby-site/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["Special Elite","Source Code Pro","source sans pro:300,400,400i,700"],"display":"swap"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
