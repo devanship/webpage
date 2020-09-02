@@ -50,7 +50,7 @@ const IndexPage = ({ data }) => {
               return <Text subTitle={exp.company} title={exp.position} date={exp.date}/>
           })}/>
           <CardComp title={"Portfolio"} backContent={<Link className="portfolio-link" href="/page-2/">Go to Portfolio</Link>}/>
-          <CardComp title={"Contact"}/>
+        <CardComp title={"Contact"} backContent={<p>Not set up. Please reach out via LinkedIn.</p>}/>
         </Grid>
         <Grid item sm={4}>
           <Typist>
